@@ -1,0 +1,53 @@
+@import '~bootstrap/scss/utilities';
+
+// Border
+// --- remove original
+$utilities: map-merge(
+  $utilities,
+  (
+    'rounded': null,
+  )
+);
+
+// --- add custom
+$utilities: map-merge(
+  $utilities,
+  (
+    'rounded': (
+      property: border-radius,
+      class: rounded,
+      values: (
+        null: $border-radius,
+        0: 0,
+        1: $border-radius * 1,
+        2: $border-radius * 2,
+        3: $border-radius * 3,
+        4: $border-radius * 4,
+        5: $border-radius * 5,
+        6: $border-radius * 6,
+        circle: 50%,
+        pill: $border-radius-pill,
+      ),
+    ),
+  )
+);
+
+// Shadow mapping
+$utilities: map-merge(
+  $utilities,
+  (
+    'shadow':
+      map-merge(
+        map-get($utilities, 'shadow'),
+        (
+          values:
+            map-merge(
+              map-get(map-get($utilities, 'shadow'), 'values'),
+              (
+                inset: $box-shadow-inset,
+              )
+            ),
+        )
+      ),
+  )
+);

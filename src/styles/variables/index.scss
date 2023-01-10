@@ -1,0 +1,15 @@
+@import '~bootstrap/scss/functions';
+
+@import './border';
+@import './colors';
+@import './forms';
+@import './shadow';
+@import './spacers';
+@import './typography';
+
+// Bootstrap variable
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/maps';
+
+//===============
+@import '~bootstrap/scss/mixins';

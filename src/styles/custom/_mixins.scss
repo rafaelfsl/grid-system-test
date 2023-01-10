@@ -1,0 +1,5 @@
+@mixin backgroundTransition {
+  transition: background-color 0.25s ease-out;
+  -webkit-transition: background-color 0.25s ease-out;
+  -moz-transition: background-color 0.25s ease-out;
+}

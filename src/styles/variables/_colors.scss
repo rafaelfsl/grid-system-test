@@ -1,0 +1,100 @@
+// Fun color names
+$sheen-green: #a2d613;
+$bright-yellow-crayola: #ffaa24;
+$hot-magenta: #f03ddb;
+$international-orange-aerospace: #f0591d;
+$kelly-green: #69c137;
+$medium-turqoise: #00c9ba;
+$sky-blue-crayola: #1ddbfd;
+$carolina-blue: #0097e6;
+$spanish-blue: #006dc1;
+$star-command-blue: #007cbf;
+$sinopia: #c94a18;
+$coal: #000;
+$google: #4285f4;
+
+// Alert & Popover Colors
+$emerald: #3dba61;
+$sunglow: #fdd03a;
+$red-salsa: #fa4d55;
+$united-nations-blue: #4488ff;
+$alice-blue: #e5f2f9;
+$colombia-blue: #b3d8ec;
+
+// Link
+$link-color: $spanish-blue;
+
+$info: $united-nations-blue;
+
+$white: #fff !default;
+$gray-100: #f2f2f2 !default;
+$gray-200: #e5e5e5 !default;
+$gray-300: #d9d9d9 !default;
+$gray-400: #c9c9c9 !default;
+$gray-500: #b3b3b3 !default;
+$gray-600: #666666 !default;
+$gray-700: #4d4d4d !default;
+$gray-800: #333333 !default;
+$gray-900: #1a1a1a !default;
+$black: #000 !default;
+
+// Theme
+$blue: #0d6efd !default;
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$pink: #d63384 !default;
+$red: #dc3545 !default;
+$orange: #fd7e14 !default;
+$yellow: #ffc107 !default;
+$green: #198754 !default;
+$teal: #20c997 !default;
+$cyan: #0dcaf0 !default;
+$status: $carolina-blue !default;
+$success: $emerald !default;
+
+// Progress Colors
+$spark: $sky-blue-crayola;
+$build: $bright-yellow-crayola;
+$connect: $sheen-green;
+$learn-more: $international-orange-aerospace;
+
+$theme-colors: (
+  'sheen-green': $sheen-green,
+  'bright-yellow-crayola': $bright-yellow-crayola,
+  'hot-magenta': $hot-magenta,
+  'international-orange-aerospace': $international-orange-aerospace,
+  'kelly-green': $kelly-green,
+  'medium-turqoise': $medium-turqoise,
+  'sky-blue-crayola': $sky-blue-crayola,
+  'carolina-blue': $carolina-blue,
+  'spanish-blue': $spanish-blue,
+  'star-command-blue': $star-command-blue,
+  'sinopia': $sinopia,
+  'coal': $coal,
+  'google': $google,
+  'emerald': $emerald,
+  'sunglow': $sunglow,
+  'red-salsa': $red-salsa,
+  'united-nations-blue': $united-nations-blue,
+  'alice-blue': $alice-blue,
+  'colombia-blue': $colombia-blue,
+  'status': $status,
+  'blue': $blue,
+  'red': $red,
+  'gray-100': $gray-100,
+  'gray-200': $gray-200,
+  'gray-300': $gray-300,
+  'gray-400': $gray-400,
+  'gray-500': $gray-500,
+  'gray-600': $gray-600,
+  'gray-700': $gray-700,
+  'gray-800': $gray-800,
+  'gray-900': $gray-900,
+  'white': $white,
+  'black': $black,
+  'spark': $spark,
+  'build': $build,
+  'connect': $connect,
+  'learn-more': $learn-more,
+  'success': $success,
+) !default;

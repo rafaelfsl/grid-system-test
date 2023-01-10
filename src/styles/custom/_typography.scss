@@ -1,0 +1,56 @@
+@import '../variables/typography';
+// @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap');
+
+// h1,
+// h3,
+// h4,
+// h5 {
+//   font-weight: $font-weight-bold;
+// }
+// h2,
+// h6 {
+//   font-weight: $font-weight-normal !important;
+// }
+
+// h5,
+// h6 {
+//   text-transform: uppercase;
+// }
+
+.text-bold,
+.text-weight-700 {
+  font-weight: $font-weight-bold;
+}
+
+.text-weight-400 {
+  font-weight: $font-weight-base;
+}
+
+.text-line-height-base {
+  line-height: $line-height-base;
+}
+
+.text-line-height-small {
+  line-height: $line-height-sm;
+}
+
+.text-line-height-large {
+  line-height: $line-height-lg;
+}
+
+.text-dark {
+  color: $black;
+}
+
+.text-white {
+  color: $white;
+}
+
+.text-error {
+  color: $danger;
+}
+
+.smcaps,
+.smallcaps {
+  font-variant: small-caps;
+}

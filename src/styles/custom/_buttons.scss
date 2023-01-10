@@ -1,0 +1,191 @@
+@import './mixins';
+@import '../variables/colors';
+@import '../variables/typography';
+
+.eb-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: $border-width solid;
+  border-radius: $border-radius-md;
+  font-weight: $font-weight-bold;
+  height: max-content;
+
+  &.block {
+    width: 100%;
+  }
+
+  .spinner-border-sm {
+    margin-right: 0.5rem;
+  }
+
+  // If button is link
+  &-link {
+    color: $link-color;
+    border: none;
+    background: none;
+    border-radius: 0;
+    &:hover {
+      text-decoration: $link-hover-decoration;
+    }
+  }
+
+  // Colors
+  &-primary {
+    color: $white;
+    background-color: $gray-900;
+    border-color: $gray-900;
+    &:hover,
+    &.active,
+    &:active {
+      background-color: $gray-900;
+      border-color: $gray-900;
+      color: $white;
+      text-decoration: underline;
+      @include backgroundTransition;
+    }
+    &:disabled {
+      background-color: $gray-500;
+      border-color: $gray-500;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  &-secondary {
+    color: $black;
+    background-color: $white;
+    border-color: $black;
+    &:hover,
+    &.active,
+    &:active {
+      color: $black;
+      background-color: $gray-200;
+      @include backgroundTransition;
+      border-color: $black;
+    }
+    &:disabled {
+      color: $gray-500;
+      background-color: $white;
+      border-color: $gray-500;
+    }
+  }
+
+  &-blue {
+    &-primary {
+      color: $white;
+      background-color: $star-command-blue;
+      border-color: $star-command-blue;
+      &:hover,
+      &.active,
+      &:active {
+        background-color: $star-command-blue;
+        @include backgroundTransition;
+        border-color: $star-command-blue;
+        text-decoration: underline;
+      }
+      &:disabled {
+        color: $white;
+        background-color: $colombia-blue;
+        border-color: $colombia-blue;
+      }
+    }
+
+    &-secondary {
+      color: $star-command-blue;
+      background-color: $white;
+      border-color: $star-command-blue;
+      &:hover,
+      &.active,
+      &:active {
+        color: $star-command-blue;
+        background-color: $alice-blue;
+        @include backgroundTransition;
+        border-color: $star-command-blue;
+      }
+      &:disabled {
+        color: $colombia-blue;
+        background-color: $white;
+        border-color: $colombia-blue;
+      }
+    }
+  }
+
+  &-sky {
+    &-primary {
+      color: $black;
+      background-color: $sky-blue-crayola;
+      border-color: $sky-blue-crayola;
+      &:hover,
+      &.active,
+      &:active {
+        background-color: $sky-blue-crayola;
+        @include backgroundTransition;
+        border-color: $sky-blue-crayola;
+        text-decoration: underline;
+      }
+      &:disabled {
+        color: $gray-500;
+        background-color: $alice-blue;
+        border-color: $alice-blue;
+      }
+    }
+  }
+
+  &-none {
+    color: $black;
+    background-color: transparent;
+    border-color: transparent;
+    &:hover,
+    &.active,
+    &:active {
+      text-decoration: underline;
+    }
+    &:disabled {
+      text-decoration: none;
+      opacity: 0.5;
+    }
+  }
+
+  // Size
+  &-sm {
+    font-size: 0.5rem;
+    min-width: 5rem;
+    padding: $spacer-1 $spacer-4;
+  }
+
+  &-md {
+    font-size: 0.75rem;
+    min-width: 6.25rem;
+    padding: $spacer-2 $spacer-6;
+  }
+
+  &-lg {
+    font-size: 1.25rem;
+    min-width: 8.75rem;
+    padding: $spacer-2 $spacer-9;
+
+    .spinner-border {
+      width: 1.75rem;
+      height: 1.75rem;
+    }
+  }
+
+  &-xl {
+    font-size: 1.75rem;
+    min-width: 11.25rem;
+    padding: $spacer-2 $spacer-12;
+  }
+
+  // Icon positioning
+  &-icon {
+    &-left {
+      margin-right: $spacer-2;
+    }
+    &-right {
+      margin-left: $spacer-2;
+    }
+  }
+}

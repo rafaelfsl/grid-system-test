@@ -1,0 +1,5 @@
+@import '../variables/colors';
+
+.grade-gradient {
+  background: linear-gradient(91deg, #e5fafc 0%, $sky-blue-crayola 100%);
+}
