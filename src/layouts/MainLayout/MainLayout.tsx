@@ -13,7 +13,7 @@ const MainLayout = ({ children }: MainLayoutProps) => {
     <div className="main-layout">
       <Header />
       <main>
-        <div className="container-fluid">{children}</div>
+        <div className="container-fluid main-content d-flex flex-row flex-grow-1">{children}</div>
       </main>
       <Footer />
     </div>

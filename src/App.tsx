@@ -1,7 +1,7 @@
-import MainLayout from "./layouts/MainLayout/MainLayout";
+import Main from "./pages/Main/Main";
 
 function App() {
-  return <MainLayout>Test</MainLayout>;
+  return <Main />;
 }
 
 export default App;

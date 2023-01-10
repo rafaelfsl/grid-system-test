@@ -1,9 +1,11 @@
 @import "~bootstrap/scss/bootstrap";
 @import './styles/index.scss';
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 body {
   margin: 0;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  font-family: 'Bebas Neue', cursive;
 }
