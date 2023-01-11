@@ -15,18 +15,25 @@ main {
 
     .main-content {
         max-width: 1280px;
-        --bs-gutter-x: 0.875rem;
+
+        padding: 0 0.75rem;
 
         @include media-breakpoint-up(sm) {
-            --bs-gutter-x: 2.25rem;
+            padding: 0 1.5rem;
         }
 
-        @include media-breakpoint-up(md) {
-            --bs-gutter-x: 2.125rem;
-        }
+        // --bs-gutter-x: 1.5rem;
 
-        @include media-breakpoint-up(lg) {
-            --bs-gutter-x: 1.875rem;
-        }
+        // .row {
+        //     --bs-gutter-x: 1.5rem;
+        // }
+
+        // @include media-breakpoint-up(sm) {
+        //     --bs-gutter-x: 3rem;
+
+        //     .row {
+        //         --bs-gutter-x: 3rem;
+        //     }
+        // }
     }
 }
