@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/grid-system-test/static/css/main.c315a3fe.css",
-    "main.js": "/grid-system-test/static/js/main.84eb9e0c.js",
+    "main.css": "/grid-system-test/static/css/main.33948eea.css",
+    "main.js": "/grid-system-test/static/js/main.d6070c95.js",
     "static/js/787.f9a75f79.chunk.js": "/grid-system-test/static/js/787.f9a75f79.chunk.js",
     "index.html": "/grid-system-test/index.html",
-    "main.c315a3fe.css.map": "/grid-system-test/static/css/main.c315a3fe.css.map",
-    "main.84eb9e0c.js.map": "/grid-system-test/static/js/main.84eb9e0c.js.map",
+    "main.33948eea.css.map": "/grid-system-test/static/css/main.33948eea.css.map",
+    "main.d6070c95.js.map": "/grid-system-test/static/js/main.d6070c95.js.map",
     "787.f9a75f79.chunk.js.map": "/grid-system-test/static/js/787.f9a75f79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c315a3fe.css",
-    "static/js/main.84eb9e0c.js"
+    "static/css/main.33948eea.css",
+    "static/js/main.d6070c95.js"
   ]
 }
