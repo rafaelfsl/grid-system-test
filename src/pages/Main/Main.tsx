@@ -6,7 +6,9 @@ const Main = () => {
     <MainLayout>
       <div className="row">
         <div className="col-12">
-          <div>Content</div>
+          <div className="text-center" style={{ backgroundColor: "gray" }}>
+            Content
+          </div>
         </div>
       </div>
       <div className="row flex-grow-1">
