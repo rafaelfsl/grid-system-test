@@ -16,10 +16,18 @@ main {
     .main-content {
         max-width: 1280px;
 
-        padding: 0 0.75rem;
+        --bs-gutter-x: 1.5rem;
+
+        .row {
+            --bs-gutter-x: 1.5rem;
+        }
 
         @include media-breakpoint-up(sm) {
-            padding: 0 1.5rem;
+            --bs-gutter-x: 3rem;
+
+            .row {
+                --bs-gutter-x: 3rem;
+            }
         }
 
         // --bs-gutter-x: 1.5rem;
