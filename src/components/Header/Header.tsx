@@ -1,8 +1,12 @@
-import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
+import { Navbar, Container, Nav, NavDropdown, Button } from "react-bootstrap";
 
 import "./Header.scss";
 
-const Header = () => {
+interface HeaderProps {
+  toggleShowGutters: () => void;
+}
+
+const Header = ({ toggleShowGutters }: HeaderProps) => {
   return (
     <header>
       <Navbar bg="dark" variant="dark" expand="lg">
@@ -11,8 +15,9 @@ const Header = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
+              <Button onClick={toggleShowGutters}>Toggle gutters</Button>
               <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#link">Link</Nav.Link>
+              {/* <Nav.Link href="#link">Link</Nav.Link> */}
               <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>

@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import { ReactNode, useState } from "react";
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 
@@ -9,11 +9,17 @@ interface MainLayoutProps {
 }
 
 const MainLayout = ({ children }: MainLayoutProps) => {
+  const [isShowGutters, setIsShowGutters] = useState(false);
+
+  const toggleShowGutters = () => {
+    setIsShowGutters((val) => !val);
+  };
+
   return (
     <div className="main-layout">
-      <Header />
+      <Header toggleShowGutters={toggleShowGutters} />
       <main>
-        <div className="container main-content gx-md-5">{children}</div>
+        <div className={`container main-content gx-md-5 ${isShowGutters ? "show-gutters" : ""}`}>{children}</div>
       </main>
       <Footer />
     </div>

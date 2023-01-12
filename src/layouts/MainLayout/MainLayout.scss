@@ -21,7 +21,11 @@ main {
         flex-grow: 1;
     }
 
-    .col {
-        background-clip: content-box;
+    .show-gutters {
+        .col {
+            background-clip: content-box;
+            border: 1px dashed darkgray;
+        }
     }
+
 }
