@@ -13,42 +13,18 @@ const Main = () => {
       </div>
       <div className="container-fluid d-flex flex-grow-1" data-bs-toggle="tooltip" title="Usual config - container > row > cols">
         <div className="row flex-grow-1">
-          <div className="col" style={{ backgroundColor: "Tomato" }}>
-            1
-          </div>
-          <div className="col" style={{ backgroundColor: "aqua" }}>
-            2
-          </div>
-          <div className="col" style={{ backgroundColor: "lightgreen" }}>
-            3
-          </div>
-          <div className="col" style={{ backgroundColor: "lightblue" }}>
-            4
-          </div>
-          <div className="col" style={{ backgroundColor: "yellow" }}>
-            5
-          </div>
-          <div className="col" style={{ backgroundColor: "orange" }}>
-            6
-          </div>
-          <div className="col" style={{ backgroundColor: "purple", color: "white" }}>
-            7
-          </div>
-          <div className="col" style={{ backgroundColor: "SlateBlue", color: "white" }}>
-            8
-          </div>
-          <div className="col" style={{ backgroundColor: "MediumSeaGreen" }}>
-            9
-          </div>
-          <div className="col" style={{ backgroundColor: "DarkBlue", color: "white" }}>
-            10
-          </div>
-          <div className="col" style={{ backgroundColor: "Olive" }}>
-            11
-          </div>
-          <div className="col" style={{ backgroundColor: "Magenta" }}>
-            12
-          </div>
+          <div className="col" style={{ backgroundColor: "Tomato" }}></div>
+          <div className="col" style={{ backgroundColor: "aqua" }}></div>
+          <div className="col" style={{ backgroundColor: "lightgreen" }}></div>
+          <div className="col" style={{ backgroundColor: "lightblue" }}></div>
+          <div className="col" style={{ backgroundColor: "yellow" }}></div>
+          <div className="col" style={{ backgroundColor: "orange" }}></div>
+          <div className="col" style={{ backgroundColor: "purple", color: "white" }}></div>
+          <div className="col" style={{ backgroundColor: "SlateBlue", color: "white" }}></div>
+          <div className="col" style={{ backgroundColor: "MediumSeaGreen" }}></div>
+          <div className="col" style={{ backgroundColor: "DarkBlue", color: "white" }}></div>
+          <div className="col" style={{ backgroundColor: "Olive" }}></div>
+          <div className="col" style={{ backgroundColor: "Magenta" }}></div>
         </div>
       </div>
       <div className="row flex-grow-1" data-bs-toggle="tooltip" title="Inner containers - row > cols > containers">
@@ -66,42 +42,18 @@ const Main = () => {
         <VerticalBar num={12} />
       </div>
       <div className="row flex-grow-1" data-bs-toggle="tooltip" title="No container (no inner spacing) - row > cols">
-        <div className="col" style={{ backgroundColor: "Tomato" }}>
-          1
-        </div>
-        <div className="col" style={{ backgroundColor: "aqua" }}>
-          2
-        </div>
-        <div className="col" style={{ backgroundColor: "lightgreen" }}>
-          3
-        </div>
-        <div className="col" style={{ backgroundColor: "lightblue" }}>
-          4
-        </div>
-        <div className="col" style={{ backgroundColor: "yellow" }}>
-          5
-        </div>
-        <div className="col" style={{ backgroundColor: "orange" }}>
-          6
-        </div>
-        <div className="col" style={{ backgroundColor: "purple", color: "white" }}>
-          7
-        </div>
-        <div className="col" style={{ backgroundColor: "SlateBlue", color: "white" }}>
-          8
-        </div>
-        <div className="col" style={{ backgroundColor: "MediumSeaGreen" }}>
-          9
-        </div>
-        <div className="col" style={{ backgroundColor: "DarkBlue", color: "white" }}>
-          10
-        </div>
-        <div className="col" style={{ backgroundColor: "Olive" }}>
-          11
-        </div>
-        <div className="col" style={{ backgroundColor: "Magenta" }}>
-          12
-        </div>
+        <div className="col" style={{ backgroundColor: "Tomato" }}></div>
+        <div className="col" style={{ backgroundColor: "aqua" }}></div>
+        <div className="col" style={{ backgroundColor: "lightgreen" }}></div>
+        <div className="col" style={{ backgroundColor: "lightblue" }}></div>
+        <div className="col" style={{ backgroundColor: "yellow" }}></div>
+        <div className="col" style={{ backgroundColor: "orange" }}></div>
+        <div className="col" style={{ backgroundColor: "purple", color: "white" }}></div>
+        <div className="col" style={{ backgroundColor: "SlateBlue", color: "white" }}></div>
+        <div className="col" style={{ backgroundColor: "MediumSeaGreen" }}></div>
+        <div className="col" style={{ backgroundColor: "DarkBlue", color: "white" }}></div>
+        <div className="col" style={{ backgroundColor: "Olive" }}></div>
+        <div className="col" style={{ backgroundColor: "Magenta" }}></div>
       </div>
     </MainLayout>
   );

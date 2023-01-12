@@ -13,7 +13,7 @@ const MainLayout = ({ children }: MainLayoutProps) => {
     <div className="main-layout">
       <Header />
       <main>
-        <div className="container main-content gx-5">{children}</div>
+        <div className="container main-content gx-md-5">{children}</div>
       </main>
       <Footer />
     </div>

@@ -10,9 +10,7 @@ const VerticalBar = ({ num, color }: VerticalBarProps) => {
 
   return (
     <div id={`bar-num-${num}`} className="col">
-      <div className="container d-flex flex-column h-100 justify-content-center align-items-center flex-1" style={{ backgroundColor: COLORS[num % COLORS.length], ...colorStyle }}>
-        {num}
-      </div>
+      <div className="container d-flex flex-column h-100 justify-content-center align-items-center flex-1" style={{ backgroundColor: COLORS[num % COLORS.length], ...colorStyle }}></div>
     </div>
   );
 };
