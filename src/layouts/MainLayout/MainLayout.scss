@@ -16,32 +16,8 @@ main {
     .main-content {
         max-width: 1280px;
 
-        --bs-gutter-x: 1.5rem;
-
-        .row {
-            --bs-gutter-x: 1.5rem;
-        }
-
-        @include media-breakpoint-up(sm) {
-            --bs-gutter-x: 3rem;
-
-            .row {
-                --bs-gutter-x: 3rem;
-            }
-        }
-
-        // --bs-gutter-x: 1.5rem;
-
-        // .row {
-        //     --bs-gutter-x: 1.5rem;
-        // }
-
-        // @include media-breakpoint-up(sm) {
-        //     --bs-gutter-x: 3rem;
-
-        //     .row {
-        //         --bs-gutter-x: 3rem;
-        //     }
-        // }
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
     }
 }
