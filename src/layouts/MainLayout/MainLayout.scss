@@ -20,4 +20,8 @@ main {
         flex-direction: column;
         flex-grow: 1;
     }
+
+    .col {
+        background-clip: content-box;
+    }
 }
